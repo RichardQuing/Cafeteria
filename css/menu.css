@@ -1,0 +1,65 @@
+b{
+    font-size:30px;
+}
+
+/*DISEÑO*/
+.palabas {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    line-height: 75px;
+}
+.palbrasC{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    background-color: darkgoldenrod;
+}
+.menu {
+
+
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.nuestroMenu {
+    font-size: 75px;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+/*MENÚ*/
+
+.contenedorM {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.plato {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+
+    border: 0.5px solid #000000;
+}
+
+.imagenD {
+    width: 150px;
+
+}
+
+.nombreD {
+    color: black;
+    font-family: 'Playfair Display', serif;
+
+    text-align: center;
+}
+
+@media(min-width:766px) {
+    
+    .contenedorM {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+}

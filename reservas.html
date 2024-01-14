@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+    <title>Reservas</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-white bg-white">
+        <div class="container-fluid">
+            <!-- Logo -->
+            
+            <h1 class="cafeteriaKing" style="color: black;">
+              <a class="nav-link" href="index.html"><img src="imagenes/corona.png" alt="logo"
+                      style="width: 80px;"> CAFETERÍA KING</a>
+
+          </h1>
+    
+            <!-- Botón de hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Menú de navegación -->
+            <div class="collapse navbar-collapse " id="navbarColor02">
+                <ul class="navbar-nav letras container ">
+                    <li class="menu">
+                        <img src="imagenes/menu.png" alt="menu" class="barraimagenes">
+                        <a class="nav-link letras" href="menu.html">Menú Digital</a>
+                    </li>
+                    <li class="nosotros">
+                        <img src="imagenes/nosotros.png" alt="nosotros" class="barraimagenes">
+                        <a class="nav-link letras" href="#">Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+    <h1 class="reservare"> <hr> Reservas <hr></h1>
+
+    <div class="reserva" style="color: rgb(0, 0, 0) ;text-align: center;">
+        <form action="#">
+            <label for="Id-Nombre">NOMBRE: </label>
+            <br />
+            <input type="text" id="Id-Nombre" name="Nombre" placeholder="Nombre" />
+            <br /><br />
+            <label for="Id-Apellido">APELLIDO: </label>
+            <br />
+            <input type="text" id="Id-Apellido" name="Apellido" placeholder="Apellido" />
+            <br /><br />
+            <label for="Id-email">EMAIL: </label>
+            <br />
+            <input type="text" id="Id-email" name="email" placeholder="Email" />
+            <br /><br />
+            <label for="id-fecha">ELIJA SU FECHA DE RESERVA</label>
+            <br><br>
+            <input type="date" id="id-fecha" name="fecha">
+            <br><br>
+            <label for="id-personas">SELECCIONE EL NÚMERO DE PERSONAS:</label>
+            <h6>(Minimo 1 persona y Maximo 6 personas)</h6>
+        
+        <select id="id-personas" name="personas">
+            <option value="1">1 persona</option>
+            <option value="2">2 personas</option>
+            <option value="3">3 personas</option>
+            <option value="4">4 persona</option>
+            <option value="5">5 personas</option>
+            <option value="6">6 personas</option>
+        </select>
+        <br><br><br>
+        <!--botones-->
+        <div class="d-grid gap-2 col-2 mx-auto">
+            <button class="enviar" type="submit">Enviar</button>
+            
+          </div>
+        </form>
+    </div>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>

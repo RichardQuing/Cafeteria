@@ -1,0 +1,152 @@
+
+.letras {
+    margin-right: 50px;
+    font-size: 17px;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.frase {
+    background-color: blanchedalmond;
+    font-family: 'Playfair Display', serif;
+    color: #3f3200;
+    font-size: 30px;
+}
+
+.cafeteriaKing {
+    margin-right: 220px;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    color: aliceblue;
+
+}
+
+
+.barracontenida {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+.navbar-nav.letras>li:not(:last-child) {
+    border-right: 2px solid #806600;
+
+    height: 95px;
+}
+
+.barraimagenes {
+    width: 45px;
+    margin-right: 50px;
+
+
+}
+
+.reservas {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Playfair Display', serif;
+
+
+
+}
+
+.menu {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.nosotros {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Playfair Display', serif;
+
+}
+
+#carouselExampleCaptions {
+    width: 1000px;
+    width: 86.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    background-color: blanchedalmond;
+    color: #806600;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.tarjeta {
+    width: 55%;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    color: #3f3200;
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+}
+
+.tarjetaN {
+    width: 45%;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    color: #806600;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.direccion {
+    width: 1000px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    /* Ajusta el valor según sea necesario */
+}
+
+.direccion iframe {
+    width: 400px;
+    height: 150px;
+    border: 0;
+}
+
+.direc {
+
+    color: aliceblue;
+    font-size: 20px;
+
+}
